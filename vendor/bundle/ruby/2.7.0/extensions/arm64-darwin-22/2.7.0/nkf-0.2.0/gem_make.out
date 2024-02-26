@@ -1,0 +1,17 @@
+current directory: /Users/Sakshi_Goel/Desktop/ext-insights-okta-experiments/OtpRNTest/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/Sakshi_Goel/.rvm/rubies/ruby-2.7.7/bin/ruby -I /Users/Sakshi_Goel/.rvm/rubies/ruby-2.7.7/lib/ruby/2.7.0 -r ./siteconf20240216-9067-1nw2k1o.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Sakshi_Goel/Desktop/ext-insights-okta-experiments/OtpRNTest/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/Sakshi_Goel/Desktop/ext-insights-okta-experiments/OtpRNTest/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/Sakshi_Goel/Desktop/ext-insights-okta-experiments/OtpRNTest/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240216-9067-10o9erg
